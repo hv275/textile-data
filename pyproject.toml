@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "textile-data"
+version = "0.1.0"
+description = "Tool consolidate textile data in a single source"
+authors = ["Gleb Vinnychenko"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "textile_data"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
